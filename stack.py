@@ -118,7 +118,7 @@ Return the string after making it good.
 The answer is guaranteed to be unique under the given constraints.
 '''
 def makeGood(s: str) -> str:
-    for i in range(len(s)sx, 1):
+    for i in range(len(s)s, 1):
         for j in range(len(s)-1, 0):
             if s(i).islower() == True and s(i).upper == s(j):
                 s.pop(i) and s.pop(j)
